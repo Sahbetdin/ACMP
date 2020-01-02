@@ -9,9 +9,9 @@ int main()
 
 	FILE* file = fopen("input.txt", "r");
 	fscanf(file, "%d", &n);
+	printf("%d\n", (n - 1) / 10 + 1);
 	
+
 	fclose(file);
-
-
 	return (0);
 }

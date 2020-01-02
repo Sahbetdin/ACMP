@@ -3,15 +3,14 @@
 
 int main()
 {
-	int i, n;
+	int i, n, m;
 	int *a;
 
 
 	FILE* file = fopen("input.txt", "r");
 	fscanf(file, "%d", &n);
+	fscanf(file, "%d", &m);
+	printf("%d %d",  m - 1, n - 1);
 	
-	fclose(file);
-
-
 	return (0);
 }

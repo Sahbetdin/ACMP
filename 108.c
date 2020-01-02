@@ -9,9 +9,9 @@ int main()
 
 	FILE* file = fopen("input.txt", "r");
 	fscanf(file, "%d", &n);
+	printf("%d\n", n);
 	
+
 	fclose(file);
-
-
 	return (0);
 }
